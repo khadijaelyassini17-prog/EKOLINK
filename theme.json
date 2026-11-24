@@ -60,7 +60,7 @@
   "spacing": {
     "units": ["rem", "px", "%"],
     "customSpacingSize": false,
-    "spacingScale": { "steps": 0 },
+    "spacingScale": {"steps": 1 },
     "spacingSizes": [
       { "slug": "sm",   "name": "sm (5 px)",    "size": "0.3125rem" },
       { "slug": "md",   "name": "md (8 px)",    "size": "0.5rem" },
