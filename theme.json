@@ -69,9 +69,9 @@
       { "slug": "xxlg", "name": "xxlg (32 px)", "size": "2rem" }
     ]
   }
-}
-   
-  },
+},
+
+
 
   "styles": {
   "color": {
@@ -136,4 +136,5 @@
     }
   },
   "css": ".eco-lead{font-size:var(--wp--preset--font-size--lead)}.eco-caption{font-size:var(--wp--preset--font-size--caption)}.eco-caption-strong{font-size:var(--wp--preset--font-size--caption);font-weight:var(--wp--custom--font-weight--semibold)}.eco-tag{font-size:var(--wp--preset--font-size--tag);font-weight:var(--wp--custom--font-weight--medium)}.eco-key-figure{font-family:var(--wp--preset--font-family--heading);font-size:var(--wp--preset--font-size--key-figure);font-weight:var(--wp--custom--font-weight--bold)}.eco-slogan-title{font-family:var(--wp--preset--font-family--slogan);font-size:var(--wp--preset--font-size--slogan-title);font-style:italic}.eco-slogan-footer{font-family:var(--wp--preset--font-family--slogan);font-size:var(--wp--preset--font-size--slogan-footer);font-style:italic}"
+}
 }
