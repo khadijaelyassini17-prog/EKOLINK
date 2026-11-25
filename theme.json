@@ -31,10 +31,48 @@
     "defaultFontSizes": false,
     "fluid": true,
     "fontFamilies": [
-      { "slug": "heading", "name": "Titres (Montserrat)", "fontFamily": "Montserrat, sans-serif" },
-      { "slug": "body",    "name": "Texte (Poppins)",     "fontFamily": "Poppins, sans-serif" },
-      { "slug": "slogan",  "name": "Slogan (Fraunces)",   "fontFamily": "Fraunces, serif" }
-    ],
+  {
+    "slug": "heading", "name": "Titres (Montserrat)", "fontFamily": "Montserrat, sans-serif",
+    "fontFace": [
+      { "fontFamily": "Montserrat", "fontStyle": "normal", "fontWeight": "100 900", "fontDisplay": "swap",
+        "src": ["file:./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf"] },
+      { "fontFamily": "Montserrat", "fontStyle": "italic", "fontWeight": "100 900", "fontDisplay": "swap",
+        "src": ["file:./assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf"] }
+    ]
+  },
+  {
+    "slug": "body", "name": "Texte (Poppins)", "fontFamily": "Poppins, sans-serif",
+    "fontFace": [
+      { "fontFamily": "Poppins", "fontStyle": "normal", "fontWeight": "100", "fontDisplay": "swap", "src": ["file:./assets/fonts/Poppins/Poppins-Thin.ttf"] },
+      { "fontFamily": "Poppins", "fontStyle": "normal", "fontWeight": "200", "fontDisplay": "swap", "src": ["file:./assets/fonts/Poppins/Poppins-ExtraLight.ttf"] },
+      { "fontFamily": "Poppins", "fontStyle": "normal", "fontWeight": "300", "fontDisplay": "swap", "src": ["file:./assets/fonts/Poppins/Poppins-Light.ttf"] },
+      { "fontFamily": "Poppins", "fontStyle": "normal", "fontWeight": "400", "fontDisplay": "swap", "src": ["file:./assets/fonts/Poppins/Poppins-Regular.ttf"] },
+      { "fontFamily": "Poppins", "fontStyle": "normal", "fontWeight": "500", "fontDisplay": "swap", "src": ["file:./assets/fonts/Poppins/Poppins-Medium.ttf"] },
+      { "fontFamily": "Poppins", "fontStyle": "normal", "fontWeight": "600", "fontDisplay": "swap", "src": ["file:./assets/fonts/Poppins/Poppins-SemiBold.ttf"] },
+      { "fontFamily": "Poppins", "fontStyle": "normal", "fontWeight": "700", "fontDisplay": "swap", "src": ["file:./assets/fonts/Poppins/Poppins-Bold.ttf"] },
+      { "fontFamily": "Poppins", "fontStyle": "normal", "fontWeight": "800", "fontDisplay": "swap", "src": ["file:./assets/fonts/Poppins/Poppins-ExtraBold.ttf"] },
+      { "fontFamily": "Poppins", "fontStyle": "normal", "fontWeight": "900", "fontDisplay": "swap", "src": ["file:./assets/fonts/Poppins/Poppins-Black.ttf"] },
+      { "fontFamily": "Poppins", "fontStyle": "italic", "fontWeight": "100", "fontDisplay": "swap", "src": ["file:./assets/fonts/Poppins/Poppins-ThinItalic.ttf"] },
+      { "fontFamily": "Poppins", "fontStyle": "italic", "fontWeight": "200", "fontDisplay": "swap", "src": ["file:./assets/fonts/Poppins/Poppins-ExtraLightItalic.ttf"] },
+      { "fontFamily": "Poppins", "fontStyle": "italic", "fontWeight": "300", "fontDisplay": "swap", "src": ["file:./assets/fonts/Poppins/Poppins-LightItalic.ttf"] },
+      { "fontFamily": "Poppins", "fontStyle": "italic", "fontWeight": "400", "fontDisplay": "swap", "src": ["file:./assets/fonts/Poppins/Poppins-Italic.ttf"] },
+      { "fontFamily": "Poppins", "fontStyle": "italic", "fontWeight": "500", "fontDisplay": "swap", "src": ["file:./assets/fonts/Poppins/Poppins-MediumItalic.ttf"] },
+      { "fontFamily": "Poppins", "fontStyle": "italic", "fontWeight": "600", "fontDisplay": "swap", "src": ["file:./assets/fonts/Poppins/Poppins-SemiBoldItalic.ttf"] },
+      { "fontFamily": "Poppins", "fontStyle": "italic", "fontWeight": "700", "fontDisplay": "swap", "src": ["file:./assets/fonts/Poppins/Poppins-BoldItalic.ttf"] },
+      { "fontFamily": "Poppins", "fontStyle": "italic", "fontWeight": "800", "fontDisplay": "swap", "src": ["file:./assets/fonts/Poppins/Poppins-ExtraBoldItalic.ttf"] },
+      { "fontFamily": "Poppins", "fontStyle": "italic", "fontWeight": "900", "fontDisplay": "swap", "src": ["file:./assets/fonts/Poppins/Poppins-BlackItalic.ttf"] }
+    ]
+  },
+  {
+    "slug": "slogan", "name": "Slogan (Fraunces)", "fontFamily": "Fraunces, serif",
+    "fontFace": [
+      { "fontFamily": "Fraunces", "fontStyle": "normal", "fontWeight": "100 900", "fontDisplay": "swap",
+        "src": ["file:./assets/fonts/Fraunces/fraunces-variable.ttf"] },
+      { "fontFamily": "Fraunces", "fontStyle": "italic", "fontWeight": "100 900", "fontDisplay": "swap",
+        "src": ["file:./assets/fonts/Fraunces/fraunces-italic-variable.ttf"] }
+    ]
+  }
+],
     "fontSizes": [
       { "slug": "tag",           "name": "Tag (12 px)",              "size": "0.75rem" },
       { "slug": "caption",       "name": "Légende (13 px)",          "size": "0.8125rem" },
